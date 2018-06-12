@@ -20,8 +20,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         app.postsData.setDelegate(self)
-        let navigationVc = UINavigationController()
-        navigationVc.title = "AA"
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {

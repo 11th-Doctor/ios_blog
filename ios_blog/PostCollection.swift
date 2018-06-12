@@ -29,6 +29,11 @@ class PostCollection: NSObject {
         vc.invokeMeWhenDataIsDone()
     }
     
+    func setDelegate(_ vc: AllTVC) {
+        
+        vc.invokeMeWhenDataIsDone()
+    }
+    
     func getPostColllectionData() -> [[String:Any]] {
         return postColllectionData
     }
